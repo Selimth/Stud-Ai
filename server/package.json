@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: couldn't start server\" && exit 1",
+    "start": "npx nodemon server/index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.1",
+    "latest-version": "^9.0.0",
+    "mysql": "^2.18.1"
+  }
+}
